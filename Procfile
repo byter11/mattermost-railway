@@ -1,1 +1,1 @@
-web: ./mattermost/bin/mattermost
+web: ./mattermost/bin/mattermost --config=./config.json
