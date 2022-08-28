@@ -8,4 +8,4 @@ export MM_LOGSETTINGS_ENABLECONSOLE=true
 
 echo "Starting Mattermost..."
 
-bin/mattermost
+/bin/mattermost
