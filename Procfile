@@ -1,1 +1,1 @@
-web: ./run.sh
+web: chmod +x ./run.sh && ./run.sh

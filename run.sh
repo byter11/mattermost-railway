@@ -2,7 +2,6 @@
 
 set -e
 
+export MM_SERVICESETTINGS_SITEURL=${RAILWAY_STATIC_URL:=""}
 
-export SERVICE_SETTINGS__SITEURL=${SERVICE_SETTINGS__SITEURL:=""}
-
-bin/mattermost --config=config/config-heroku.json
+bin/mattermost
